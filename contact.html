@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Cake Bakery - Contact Us</title>
+
+    <link rel="stylesheet" href="contact.css">
+    <style>
+        input:focus {
+            background-color: palevioletred;
+        }
+        input::placeholder{
+            color: black;
+        }
+        </style>
+</head>
+<body>
+     <!-- start navbar -->
+     <div class="header">
+        <div class="logo">
+            <img src="ac0e4193fb5eb294d224ec45fe9a1bfe-removebg-preview.png" width="250px" style="cursor: pointer;" alt="">
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="product.html">Product </a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+    </div>
+    <!-- end navbar -->
+    <!-- start form -->
+   <form>
+    <div class="content1">
+        <label>Name</label><br><br>
+        <input type="text" placeholder="First Name"  id="fname"><br><br>
+        <input type="text" placeholder="last Name" id="lname" ><br><br>
+        <label>Phone Number</label><br><br>
+        <input type="number" placeholder="(000)000-000" id="num"><br><br>
+        <label>E-mail</label><br><br>
+        <input type="email" placeholder="ex:myname@example.com"><br><br>
+        <label>Message</label><br><br>
+        <textarea placeholder="Enter Your Message" id="" cols="30" rows="10"></textarea><br><br>
+        <button id="order"><h3>Submit</h3></button>
+    </div>
+   </form>
+   <!--end form -->
+</body>
+</html>

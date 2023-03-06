@@ -1,0 +1,79 @@
+*{
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+body{
+    background-image: url(https://cdn4.vectorstock.com/i/1000x1000/02/08/cup-cake-background-vector-320208.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Mandali',sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    font-size: 1rem;
+    overflow-x: hidden;
+    background-color:#6ec1e4 ;
+    display: block;
+    margin: 8px;
+}
+.logo{
+    margin: 5px 25px;
+}
+.header{ 
+    display: flex;
+    background-color: #784B84;
+   
+}
+.header ul{
+    display: flex;
+}
+.header ul li{
+    margin: 40px 50px;
+    font-family: 'Dancing Script',cursive;
+    font-size: 20px;
+    letter-spacing: .5px;
+    font-weight: bolder;
+    color:#BDB2FF ;
+}
+.header ul li a{
+    color:#BDB2FF;
+}
+.header ul li a:hover{
+    border: 1px solid #00107A;
+    padding: 4px;
+    color: white;
+}
+.content1{
+    width: 90%;
+    margin: auto;
+}
+form{
+    background-color: #BDB2FF;
+    color: #00107A;
+    padding-top:34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54%;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 60px;
+
+}
+form input{
+    width: 98.5%;
+    height: 2.8em;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+#order{
+    width: 98.5%;
+    height: 3em;
+    position: relative;
+    top: 11px;
+    background-color: #6ec1e4;
+}
